@@ -1,6 +1,6 @@
 {
     "name":         "ehrlichandreas/blogcms-bundle",
-    "description":  "Zend Framework like bloging module",
+    "description":  "",
     "type":         "util",
     "keywords": 
     [
@@ -47,7 +47,6 @@
             "type": "git",
             "url": "https://github.com/ehrlichandreas/ehrlichandreas1-util.git"
         },
-
         {
             "type": "git",
             "url": "https://github.com/ehrlichandreas/ehrlichandreas1-keyvaluecms.git"
@@ -55,7 +54,10 @@
     ],
     "require": 
     {
-        "php":                                  ">=5.1",
+        "php":                                          ">=5.3.3",
+
+        "doctrine/orm":                                 "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle":                     "1.3.*@dev",
 
         "ehrlichandreas/composer-php52":                "*",
 
