@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @author Andreas Ehrlich
  */
-final class Comment
+class Comment
 {
 	/**
 	 * @ORM\Id
