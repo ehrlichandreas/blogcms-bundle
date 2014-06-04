@@ -44,6 +44,11 @@ class Blog
 	/**
 	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
 	 */
+	protected $extern_id_type;
+
+	/**
+	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
+	 */
 	protected $author_id;
 
 	/**

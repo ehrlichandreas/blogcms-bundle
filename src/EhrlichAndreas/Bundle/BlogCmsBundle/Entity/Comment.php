@@ -44,6 +44,11 @@ class Comment
 	/**
 	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
 	 */
+	protected $extern_id_type;
+
+	/**
+	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
+	 */
 	protected $blog_id;
 
 	/**
