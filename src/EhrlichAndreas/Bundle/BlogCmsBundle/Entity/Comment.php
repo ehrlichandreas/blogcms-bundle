@@ -82,12 +82,12 @@ class Comment
 	protected $comment_content_filtered;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $comment_type;
 
 	/**
-	 * @ORM\Column(type="string", length=255, nullable=false)
+	 * @ORM\Column(type="string", length=255, nullable=false, options={"default": ""})
 	 */
 	protected $guid;
 }

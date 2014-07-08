@@ -77,27 +77,27 @@ class Post
 	protected $post_excerpt;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $post_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $comment_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $ping_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $post_password;
 
 	/**
-	 * @ORM\Column(type="string", length=200, nullable=false)
+	 * @ORM\Column(type="string", length=200, nullable=false, options={"default": ""})
 	 */
 	protected $post_name;
 
@@ -127,17 +127,17 @@ class Post
 	protected $post_id_parent;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $post_type;
 
 	/**
-	 * @ORM\Column(type="string", length=100, nullable=false)
+	 * @ORM\Column(type="string", length=100, nullable=false, options={"default": ""})
 	 */
 	protected $post_mime_type;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $comment_count;
 
@@ -147,7 +147,7 @@ class Post
 	protected $menu_order;
 
 	/**
-	 * @ORM\Column(type="string", length=255, nullable=false)
+	 * @ORM\Column(type="string", length=255, nullable=false, options={"default": ""})
 	 */
 	protected $guid;
 }

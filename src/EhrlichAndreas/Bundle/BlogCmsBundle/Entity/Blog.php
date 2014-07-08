@@ -67,27 +67,27 @@ class Blog
 	protected $blog_excerpt;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $blog_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $comment_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $ping_status;
 
 	/**
-	 * @ORM\Column(type="string", length=20, nullable=false)
+	 * @ORM\Column(type="string", length=20, nullable=false, options={"default": ""})
 	 */
 	protected $blog_password;
 
 	/**
-	 * @ORM\Column(type="string", length=200, nullable=false)
+	 * @ORM\Column(type="string", length=200, nullable=false, options={"default": ""})
 	 */
 	protected $blog_name;
 
@@ -117,7 +117,7 @@ class Blog
 	protected $menu_order;
 
 	/**
-	 * @ORM\Column(type="string", length=255, nullable=false)
+	 * @ORM\Column(type="string", length=255, nullable=false, options={"default": ""})
 	 */
 	protected $guid;
 }
